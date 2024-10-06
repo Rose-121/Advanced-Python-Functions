@@ -6,13 +6,17 @@ for i in range(0,num+1):
 
 print(l1)
 
-odd = [l1 for l1 in num if l1%2 == 0]
+odd = [i for i in l1 if i%2 == 0]
 print("List of odd numbers from original:",odd)
+
+
+
+
 
 students = ["nusaiba","nabila","rose"]
 
 capstudents = []
 
-capstudents.append(students[0].capitalize())
+capstudents.append(students[0,1,2].capitalize())
 
 print(capstudents)
